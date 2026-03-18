@@ -2,11 +2,17 @@ class Siec
 {
     Warstwa[] warstwa;
 
-    public Siec(int ileWarstw, int[] ileNeuronowWWarstwie)
+    public Siec(double[] wejscie ,int ileWarstw, int[] ileNeuronowWWarstwie)
     {
         for (int i = 0; i < ileWarstw; i++)
         {
-            warstwa += 
+             
         }
     }
+
+    public void Ucz()
+    {
+        
+    }
+    
 }
